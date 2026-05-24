@@ -7,10 +7,17 @@
 </head>
 
 <body>
-    <div>
-        <h1 class="title">To Do App</h1>
-        <p class="subtext">This is a paragraph.</p>
-        <button onclick="greet()">Greet</button>
+    <div class="main-section">
+        <div>
+            <h1 class="title">To Do App</h1>
+
+        </div>
+        <div>
+            <p class="subtext">Add your tasks here.</p>
+            <input id="addedText" type="text" placeholder="Enter a new task...">
+            <button onclick="add()">Add Task</button>
+        </div>
+        <ul id="list"></ul>
     </div>
 
 

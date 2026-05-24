@@ -1,3 +1,15 @@
-.title{
+.title {
     color: red
+}
+
+body {
+    background-color: lightgray;
+}
+
+.main-section {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
 }
